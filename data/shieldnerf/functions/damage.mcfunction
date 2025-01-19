@@ -1,0 +1,1 @@
+$damage @s $(damage) generic by @n[tag=attacker]

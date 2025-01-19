@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 26,
-        "description": "Get critical hits while sprinting!"
+        "description": "Make shields only block some damage, not all!"
     }
 }

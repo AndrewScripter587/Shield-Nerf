@@ -1,2 +1,2 @@
-$damage @s $(damage) generic by @n[tag=attacker]
+$execute at @s positioned ^ ^ ^0.05 run damage @s $(damage) mob_attack
 execute if score EnableHurtSound ShieldNerfSettings matches 1 unless score PercentDmgBlocked ShieldNerfSettings matches ..0 at @s run playsound entity.player.hurt player @a ~ ~ ~ 1.0 1.0
